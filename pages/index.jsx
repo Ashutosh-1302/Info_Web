@@ -11,10 +11,14 @@ export default function Home() {
 			<PagesMetaHead title="Home" />
 
 			<AppBanner />
+			
+		<Conference
+		showMoreConferences={true}
+		/>
 
-			<Conference/>
-
-			<Journals/>
+<Journals
+	showMoreJournals={true}
+	/>
 
 			{/* <ProjectsGrid /> */}
 
