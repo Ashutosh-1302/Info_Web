@@ -1,4 +1,4 @@
-const teachingCoursesData = [
+const postGraduteData = [
     {
         id:0,
         name:"Introduction to Materials Processing (MS 502)",
@@ -18,4 +18,4 @@ const teachingCoursesData = [
       discription:'These courses is designed to provide students with a deeper understanding of materials science and their practical applications in the construction industry. The concepts that might be covered in such a course are Material Properties and Selection, Nanotechnology in Construction, Sustainable Building Materials, High-Performance Concrete, Advanced Steel and Metal Alloys, Smart Materials, Energy-Efficient Insulation and Coatings, Composite Materials, Biomimetic Materials, Testing and Evaluation, Case Studies, Regulations and Standards, Cost-Benefit Analysis, Sustainability and Environmental Impact, Future Trends. These are some of the core topics you can expect to encounter in an "Advanced Building Materials" course. Keep in mind that the specific curriculum may vary depending on the institution and the level of the course (undergraduate or graduate). Such courses aim to equip students with the knowledge and skills needed to stay at the forefront of construction technology and sustainable building practices.'
    }
 ];
-export default teachingCoursesData;
+export default postGraduteData;
