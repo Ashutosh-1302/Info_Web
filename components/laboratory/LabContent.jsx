@@ -21,7 +21,7 @@ function LabContent() {
     const CurrentLabComponent = labComponents[activeLab];
 
     return (
-        <div className="lab-section">
+        <div className="lab-section w-full">
             <LabButtons labs={Object.keys(labComponents)} activeLab={activeLab} setActiveLab={setActiveLab} />
             <CurrentLabComponent />
         </div>

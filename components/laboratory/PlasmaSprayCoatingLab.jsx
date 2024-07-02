@@ -28,7 +28,7 @@ function PlasmaSprayCoatingLab() {
                         {/* Alternate image position based on index (odd/even) */}
                         {index % 2 === 0 && (
                             <>
-                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-4" />
+                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-2/5 h-2/5 mb-4 md:mb-0 md:mr-4 p-8" />
                                 <div className="md:w-1/2">
                                     <h4 className="text-lg font-semibold">{item.name}</h4>
                                     <p className='text-lg '>{item.text2}</p>
@@ -59,7 +59,7 @@ function PlasmaSprayCoatingLab() {
                                         ))}
                                     </ul>
                                 </div>
-                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-1/2 mb-4 md:mb-0 md:ml-4" />
+                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-2/5 h-2/5 mb-4 md:mb-0 md:mr-4 p-8" />
                             </>
                         )}
                     </div>

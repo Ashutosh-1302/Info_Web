@@ -7,8 +7,8 @@ function LabButtons({ labs, activeLab, setActiveLab }) {
                 <li
                     key={lab}
                     className={`lab-item cursor-pointer px-4 py-2 rounded-md 
-                      ${activeLab === lab ? 'bg-black text-white' : 'bg-gray text-black'}
-                      hover:bg-black hover:text-white transition duration-200 ease-in-out`}
+                      ${activeLab === lab ? 'bg-red-800 text-white' : 'bg-gray text-black'}
+                      hover:bg-red-800 hover:text-white transition duration-200 ease-in-out`}
                     onClick={() => setActiveLab(lab)}
                 >
                     {lab}

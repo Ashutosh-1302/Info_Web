@@ -6,7 +6,7 @@ function HeatTreatmentLab() {
     const currentLab = laboratoryData['Heat Treatment Lab'];
 
     return (
-        <div className="lab-content-container p-8">
+        <div className="lab-content-container p-8 w-full">
             <h2 className="text-3xl font-semibold mb-8 mt-4 uppercase">{currentLab.title}</h2>
             <p className="mb-4">{currentLab.description}</p>
 
@@ -25,7 +25,7 @@ function HeatTreatmentLab() {
                         {/* Alternate image position based on index (odd/even) */}
                         {index % 2 === 0 && (
                             <>
-                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-1/2 mb-4 md:mb-0 md:mr-4" />
+                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-2/5 h-2/5 mb-4 md:mb-0 md:mr-4 p-8" />
                                 <div className="md:w-1/2">
                                     <h4 className="text-lg font-semibold">{item.name}</h4>
                                     <p className='text-lg '>{item.text2}</p>
@@ -56,7 +56,7 @@ function HeatTreatmentLab() {
                                         ))}
                                     </ul>
                                 </div>
-                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-1/2 mb-4 md:mb-0 md:ml-4" />
+                                <img src={item.imageUrl} alt={item.name} className="w-full md:w-2/5 h-2/5 mb-4 md:mb-0 md:mr-4 p-8" />
                             </>
                         )}
                     </div>

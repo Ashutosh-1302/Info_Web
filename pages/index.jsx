@@ -19,6 +19,7 @@ import { SiGooglescholar, SiOrcid } from "react-icons/si";
 import AboutCounter from '../components/about/AboutCounter';
 import Gallery from '../components/gallery/Gallery';
 import Button from '../components/reusable/Button';
+import AlumniSlider from '../components/profileSlider/AlumniSlider';
 
 const images = [
   '/images/img1.jpg',
@@ -183,6 +184,7 @@ export default function Home() {
       </div>
 
       {/* Gallery */}
+      <AlumniSlider/>
 
       <Gallery />
 
